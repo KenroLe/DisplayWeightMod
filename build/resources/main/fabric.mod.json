@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "show-weight-mod",
+  "version": "1.0.0",
+  "name": "Airships Example Mod",
+  "description": "",
+  "authors": [
+    "Xelo",
+    "Kenro"
+  ],
+  "contact": {
+    "homepage": "fuck u"
+  },
+  "license": "MIT",
+  "icon": "assets/mindustry-example-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kenro.showweight.ShowWeight"
+    ]
+  },
+  "mixins": [
+    "show-weight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "airships-base": "1.2.*"
+  }
+}
