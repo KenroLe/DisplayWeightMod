@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "airships-example-mod",
+  "version": "${version}",
+  "name": "Airships Example Mod",
+  "description": "",
+  "authors": [
+    "Xelo"
+  ],
+  "contact": {
+    "homepage": "fuck u"
+  },
+  "license": "MIT",
+  "icon": "assets/mindustry-example-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "art.xeloboyo.airshipsexamplemod.AirshipsExampleMod"
+    ]
+  },
+  "mixins": [
+    "airships-example-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "airships-base": "1.2.*"
+  }
+}
