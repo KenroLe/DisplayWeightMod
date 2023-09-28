@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "art.xeloboyo.airshipsexamplemod.InjuredModules"
+      "com.kenro.injuredmodulesmod.InjuredModules"
     ]
   },
   "mixins": [

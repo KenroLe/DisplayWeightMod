@@ -1,4 +1,4 @@
-package art.xeloboyo.airshipsexamplemod;
+package com.kenro.injuredmodulesmod;
 
 import net.fabricmc.api.ModInitializer;
 

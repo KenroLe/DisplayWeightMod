@@ -1,6 +1,6 @@
 
 
-package art.xeloboyo.airshipsexamplemod.mixin;
+package com.kenro.injuredmodulesmod.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import com.llamalad7.mixinextras.sugar.ref.LocalIntRef;

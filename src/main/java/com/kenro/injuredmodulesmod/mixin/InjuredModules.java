@@ -1,4 +1,4 @@
-package art.xeloboyo.airshipsexamplemod.mixin;
+package com.kenro.injuredmodulesmod.mixin;
 
 import com.zarkonnen.airships.AGame;
 import com.zarkonnen.airships.MainMenu;

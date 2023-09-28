@@ -1,5 +1,5 @@
 
-package art.xeloboyo.airshipsexamplemod.mixin;
+package com.kenro.injuredmodulesmod.mixin;
 
 import com.zarkonnen.airships.MissionsScreen;
 import org.spongepowered.asm.mixin.Mixin;
