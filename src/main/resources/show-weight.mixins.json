@@ -1,12 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.kenro.injuredmodulesmod.mixin",
+  "package": "com.kenro.showweight.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "InjuredModules",
-    "MissionsScreenMixin",
-    "HpAffectsLiftMixin"
+    "ShowWeightMixin",
   ],
   "client": [
   ],
