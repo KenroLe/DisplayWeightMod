@@ -2,9 +2,7 @@ package art.xeloboyo.airshipsexamplemod;
 
 import net.fabricmc.api.ModInitializer;
 
-import java.util.logging.Logger;
-
-public class AirshipsExampleMod implements ModInitializer {
+public class InjuredModules implements ModInitializer {
     public static final String MODID = "airships-example-mod";
 
     // This logger is used to write text to the console and the log file.

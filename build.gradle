@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'maven-publish'
     id 'eclipse'
+    id 'java-library'
 }
 
 version = project.mod_version
@@ -24,7 +25,9 @@ dependencies {
     // To change the versions see the gradle.properties file
     implementation files('gamejar/game.jar')
     implementation fileTree(dir: 'gamejar/lib', include: ['*.jar'])
-    implementation "com.github.Xeloboyo:airships-fabric-loader:${project.loader_version}"
+    api "com.github.KenroLe:sail:${project.loader_version}"
+    annotationProcessor(implementation("io.github.llamalad7:mixinextras-fabric:0.2.0-rc.5")
+)
 
 }
 

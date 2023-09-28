@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MainMenu.class)
-public class ExampleMixin {
+public class InjuredModules {
     @Inject(
             at = @At(
                     value = "INVOKE",
